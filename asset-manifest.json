@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/static/js/main.4bf7f39b.chunk.js",
-    "main.js.map": "/static/js/main.4bf7f39b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.05acb778.js",
-    "runtime-main.js.map": "/static/js/runtime-main.05acb778.js.map",
-    "static/js/2.96d20978.chunk.js": "/static/js/2.96d20978.chunk.js",
-    "static/js/2.96d20978.chunk.js.map": "/static/js/2.96d20978.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.529c103b224ffcf7a0c0e7384bd918e7.js": "/precache-manifest.529c103b224ffcf7a0c0e7384bd918e7.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.96d20978.chunk.js.LICENSE": "/static/js/2.96d20978.chunk.js.LICENSE"
+    "main.css": "/gitsearch/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/gitsearch/static/js/main.edada501.chunk.js",
+    "main.js.map": "/gitsearch/static/js/main.edada501.chunk.js.map",
+    "runtime-main.js": "/gitsearch/static/js/runtime-main.c24412f1.js",
+    "runtime-main.js.map": "/gitsearch/static/js/runtime-main.c24412f1.js.map",
+    "static/js/2.96d20978.chunk.js": "/gitsearch/static/js/2.96d20978.chunk.js",
+    "static/js/2.96d20978.chunk.js.map": "/gitsearch/static/js/2.96d20978.chunk.js.map",
+    "index.html": "/gitsearch/index.html",
+    "precache-manifest.4542327a9edc93c85c284003b8ee26b2.js": "/gitsearch/precache-manifest.4542327a9edc93c85c284003b8ee26b2.js",
+    "service-worker.js": "/gitsearch/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/gitsearch/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.96d20978.chunk.js.LICENSE": "/gitsearch/static/js/2.96d20978.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.05acb778.js",
+    "static/js/runtime-main.c24412f1.js",
     "static/js/2.96d20978.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.4bf7f39b.chunk.js"
+    "static/js/main.edada501.chunk.js"
   ]
 }
