@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
+import './DisplayData.css';
 
 class DisplayData extends Component{
     render(){
-        let {username,location,repos,followers,url,create} = this.props.displaydata;
+        let {username,location,repos,followers,url,create,pic} = this.props.displaydata;
         return(
-            <div >
-                <p>Username: {username} </p>
-                <p>Location: {location}</p>
-                <p>Total Repositories: {repos}</p>
-                <p>Followers: {followers}</p> 
-                <p>URL: {url}</p>
-                <p>Created At: {create}</p>
+            <React.Fragment>
+                <div className="circle"> <img src={pic} alt="Picture"/></div>
+                <div className="display">
+                    <a href = {url} target="blank" style={{}} > <p>{username}</p></a> 
+                    <p>Location: {location}</p>
+                    <p>Total Repositories: {repos}</p>
+                    <p>Followers: {followers}</p> 
+                    <p>Created At: {create}</p>
             </div>
+            </React.Fragment>
         )
     }
 }

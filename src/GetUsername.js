@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import './DisplayData';
 
 class GetUsername extends Component{
     state = {
@@ -20,11 +21,11 @@ class GetUsername extends Component{
     }
     render(){
         return(
-            <div>
+            <div className="gitname">
                 <form onSubmit={this.handleSubmit}>
-                    <label htmlFor="name">Name: </label>
+                    <label htmlFor="name" style={{fontSize: '20px'}}>Name: </label>
                     <input type="text" id="name" onChange={this.handleChange} />
-                    <button>Get Name</button>
+                    <button>Get GitHubName</button>
                 </form>    
             </div>
         )

@@ -1,0 +1,43 @@
+.display{
+    /* border: 1px solid; */
+    text-align: left;
+    margin-left: 56px;
+    margin-top: 96px;
+    margin-right: 50px;
+    font-size: 20px;
+    top: -73px;
+    position: relative;
+}
+
+.gitname{
+    margin-top: 12px;
+    
+}
+
+#name{
+    height: 20px;
+    width: 200px;
+    margin-top:10px;
+}
+
+button{
+    margin-left: 10px;
+    height: 25px;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    left: 205px;
+    position: relative;
+    z-index: 1;
+    bottom: -12px;
+
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
