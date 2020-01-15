@@ -1,12 +1,15 @@
 .display{
-    /* border: 1px solid; */
     text-align: left;
     margin-left: 56px;
-    margin-top: 96px;
+    margin-top: 53px;
     margin-right: 50px;
     font-size: 20px;
-    top: -73px;
+    top: -97px;
     position: relative;
+    text-align-last: center;
+    border: 2px solid;
+    height: 266px;
+    padding-top: 45px;
 }
 
 .gitname{
