@@ -14,11 +14,14 @@ class GitSearch extends Component {
             url: '',
             create: '',
             pic: '',
+            message: '',
         };
+        this.showDetails = false;
     }
 
     extractAndSetData = (data) => {
-        let { login,html_url,location,public_repos,followers,created_at,avatar_url } = data;
+        let { login,html_url,location,public_repos,followers,created_at,avatar_url,message } = data;
+        this.showDetails = true;
         this.setState({
             username: login,
             location: location,
@@ -26,7 +29,8 @@ class GitSearch extends Component {
             followers: followers,
             url: html_url,
             create: created_at,
-            pic: avatar_url
+            pic: avatar_url,
+            message: message,
         });
     }
 
@@ -39,7 +43,7 @@ class GitSearch extends Component {
         return (
         <div className="gitsearch">
             <GetUsername handleName={this.handleName} />
-            <DisplayData displaydata={this.state} />
+            {this.showDetails && <DisplayData displaydata={this.state} />}
         </div>
         );
     }
